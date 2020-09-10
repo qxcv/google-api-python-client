@@ -45,5 +45,5 @@ def autodetect():
 
         return file_cache.cache
     except Exception as e:
-        LOGGER.warning(e, exc_info=True)
+        LOGGER.warning(e)
         return None
